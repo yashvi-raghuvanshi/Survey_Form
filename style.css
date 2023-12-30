@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    border: border-box;
+    background-color: #fce3c5;
+}
+
+.Heading{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ba4e3f;
+    font-size: 7.5rem;
+    font-weight: 800;
+    height: 350px;
+    width: 800px;
+}
+
+.Image{
+    background-image: url("restaurant_img.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-data{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ba4e3f;
+    width: 90%;
+    margin-left: 150px;
+}
+
+.data{
+    color: #ba4e3f;
+    width: 80%;
+    height: 25px;
+    margin-left: 15px;
+    border: none;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.entry-data2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ba4e3f;
+    width: 90%;
+    margin-left: 150px;  
+}
+
+
+input[type=radio] {
+    border: 0px;
+    height: 2em;
+    width: 10%
+}
+
+.questions{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.qs-entry2{
+    width: 50%;
+    height: 400px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ba4e3f;
+    margin-left: 300px;
+}
+
+.opt2{
+    height: 500px;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ba4e3f;
+}
+
+.suggestion{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ba4e3f;
+}
+
+.suggestion2{
+    margin-left: 150px;
+}
+
+.suggestion-box{
+    height: 90px;
+    width: 60%;
+    font-size: 1rem;
+    color: #ba4e3f;
+    border: none;
+    text-decoration: underline;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit button{
+    color: #ba4e3f;
+    border-color: #ba4e3f;
+    border-width: 4px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ba4e3f;
+}
+
